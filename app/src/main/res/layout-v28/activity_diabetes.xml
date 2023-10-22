@@ -39,13 +39,11 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="27dp"
-        app:boxCornerRadiusBottomEnd="20dp">
+        android:layout_marginLeft="27dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:shadowColor="@color/white"
             android:background="#262730" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -264,7 +262,9 @@
         app:cornerRadius="10dp"
         android:backgroundTint="#262730"
         android:text="Diabetes Test Result"
-        android:outlineSpotShadowColor="#ED1707"
+        app:strokeColor="#ED1707"
+        app:rippleColor="#ED1707"
+        app:strokeWidth="2dp"
         android:textSize="16dp"/>
 
 </LinearLayout>
