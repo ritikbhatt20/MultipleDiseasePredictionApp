@@ -15,6 +15,15 @@
         android:theme="@style/Theme.MultipleDiseasePredictionApp"
         tools:targetApi="31">
         <activity
+            android:name=".ParkinsonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HeartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DiabetesActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChooseDiseaseActivity"
             android:exported="false" />
         <activity
