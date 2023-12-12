@@ -259,10 +259,10 @@
     <com.google.android.material.button.MaterialButton
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
         app:cornerRadius="10dp"
         android:backgroundTint="#262730"
+        android:layout_marginTop="25dp"
         android:text="Diabetes Test Result"
         android:outlineSpotShadowColor="#ED1707"
         android:textSize="16dp"/>
