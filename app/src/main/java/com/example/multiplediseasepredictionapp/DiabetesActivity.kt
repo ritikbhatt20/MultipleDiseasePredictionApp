@@ -13,11 +13,11 @@ class DiabetesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_diabetes)
 
-        val cgpa = findViewById<EditText>(R.id.cgpa)
-        val iq = findViewById<EditText>(R.id.iq)
-        val profile_score = findViewById<EditText>(R.id.profileScore)
-        val predict = findViewById<Button>(R.id.btn)
-        val result = findViewById<TextView>(R.id.result)
+//        val cgpa = findViewById<EditText>(R.id.cgpa)
+//        val iq = findViewById<EditText>(R.id.iq)
+//        val profile_score = findViewById<EditText>(R.id.profileScore)
+//        val predict = findViewById<Button>(R.id.btn)
+//        val result = findViewById<TextView>(R.id.result)
 
     }
 }
